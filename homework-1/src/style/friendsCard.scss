@@ -1,0 +1,42 @@
+.friend-list {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-item {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border: 2px solid rgb(224, 224, 224);
+    background-color: white;
+}
+.user-avatar {
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 10%;
+    margin-left: 12px;
+}
+.online {
+    width: 15px;
+    height: 15px;
+    margin: 20px 0 0 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: green;
+}
+.ofline {
+    width: 15px;
+    height: 15px;
+    margin: 20px 0 0 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+.user-name {
+    margin: 0;
+    padding: 20px 0 0 12px;
+    font-size: 20px;
+    font-weight: bold;
+}

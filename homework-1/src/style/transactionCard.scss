@@ -1,0 +1,49 @@
+.transaction-history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+    width: 610px;
+    background-color: white;
+}
+thead {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+}
+tr {
+    display: flex;
+}
+th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(38, 235, 235);
+    background-color: rgb(118, 245, 245);
+    color: white;
+}
+tbody {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+}
+td {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(215, 215, 215);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: gray;
+
+}
